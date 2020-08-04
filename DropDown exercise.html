@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0%; padding: 0;
+            overflow: hidden;
+            background-color: #333;
+            color: white;
+        }
+
+        .content {
+            display: none;
+            position: absolute;
+            width: 150px;
+            height: 100px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+            margin-top: 3%;
+            margin-left: -3%;
+        }
+
+        li {
+            float: left;
+            padding: 3%;
+        }
+
+        li:hover{
+            background-color: red;
+        }
+        
+        .dropbox:hover .content{
+            display: block;
+        }
+        
+        .content a{
+            background-color: white;
+            color:black;
+            display: block;
+            padding: 4%;
+            text-decoration:none;
+            padding: 12px 16px;
+            text-align: left;
+        }
+
+        a:hover{
+            background-color: gray;
+        }
+
+        /* #dropdown, .content{
+            display: inline-block;
+        } */
+
+        
+
+    </style>
+</head>
+
+
+<body>
+    <div class="dropdown">
+
+        <ul class="menuLine">
+            <li class="dropbox">Home</li>
+
+            <li class="dropbox">News</li>
+
+            <li class="dropbox" id="dropdown">Dropdown
+                <div class="content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </li>
+        </ul>
+
+    </div>
+    <h1>Dropdown Menu inside a Navigation Bar</h1>
+    <p>Hover over the "tropdown" link to see the dropdown menu.</p>
+</body></html>
+
