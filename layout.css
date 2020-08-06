@@ -1,0 +1,125 @@
+img {
+    border: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', serif;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none
+}
+
+#main header {
+    width 960px;
+    margin: 0 auto;
+    height: 160px;
+    position: relative;
+}
+
+#main header > #title {
+    position: absolute;
+    left: 20px;
+    top: 30px;
+}
+
+#main header > #main_gnb {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+#main header > #main_lnb {
+    position: absolute;
+    right: 0px;
+    bottom: 10px;
+}
+
+#title {
+    font-family: 'Hennry penny', cursive;
+}
+
+#main_gnb > ul {
+    overflow: hidden;
+}
+
+#main_gnb > ul > li {
+    float: left;
+}
+
+#main_gnb > ul > li > a {
+    display: block;
+    padding: 2px 100px;
+    border: 1px solid black;
+}
+
+#main_gnb > ul > li > a:hover {
+    background-color: black;
+    color: white;
+}
+
+#main_gnb > ul > li:first-child > a {
+    border-radius: 10px 0 0 10px;
+}
+
+#main_gnb > ul > li:last-child > a {
+    border-radius: 0 10px 10px 0;
+}
+
+#main_lnb > ul {
+    overflow: hidden;
+}
+
+#main_lnb > ul > li {
+    float: left;
+}
+
+#main_lnb > ul > li > a {
+    display: block;
+    padding: 2px 100px;
+    border: 1px solid black;
+}
+
+#main_lnb > ul > li > a:hover {
+    background-color: black;
+    color: white;
+}
+
+#main_lnb > ul > li:first-child > a {
+    border-radius: 10px 0 0 10px;
+}
+
+#main_lnb > ul > li:last-child > a {
+    border-radius: 0 10px 10px 0;
+}
+
+#content {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#content > #main_section {
+    width: 750px;
+    float: left;
+}
+
+#content > #main_aside {
+    width: 200px;
+    float: right;
+}
+
+#main_section > article.main_aticle {
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
