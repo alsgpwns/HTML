@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+div{
+    position: absolute;
+    left: 34%;
+    top: 30%;
+}

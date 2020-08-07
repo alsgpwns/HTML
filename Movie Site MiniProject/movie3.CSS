@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Lemonada',cursive; */
+}
+body{
+    /* background-color: rgb(213, 247, 247); */
+    position: relative;
+    background-color: #935d8c;
+    background-image: url(images/overlay.png), -moz-linear-gradient(45deg, #db8791 15%, #5f4d93 85%);
+    background-image: url(images/overlay.png), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url(images/overlay.png), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+    background-image: url(images/overlay.png), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+}
+header{
+    text-align: center;
+    padding: 6em 4em 3em 4em;
+    font-family: 'Kaushan Script', cursive;
+}
+
+
+/* 콘텐츠 */
+#main{
+    margin: 0 auto;
+    width: 600px;
+    height: 2146px;
+    position: relative;
+}
+
+
+/* 네비게이션 */
+#tab{
+    background-color: rgb(224, 199, 231);
+    border-radius: 20px;
+    position: absolute;
+    width: 600px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    font-family: 'Lemonada';
+}
+ul{
+    list-style: none;
+}
+li{
+    float: left;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding: 6px 23px;
+    color: white;
+    padding-left: 39px;
+}
+
+/* #intro:active #intro{
+    color: rgb(90, 24, 24);
+} */
+
+nav{
+    background-color: rgb(178, 186, 194);
+}
+
+/* 콘텐츠 */
+
+#content{
+    padding: 4em 4em 2em 4em;
+    font-family: 'Lemonada',cursive;
+    position: relative;
+    background-color: rgb(253, 253, 253);
+}
+section{
+    margin-bottom: 80px;
+}
+#intro #rightcontent{
+   position: absolute;
+   right: 43px;
+   top: 138px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 30px;
+}
+
+ #Quotes #rightcontent{
+    float: right;
+    position: absolute;
+    right: 16px;
+    top: 611px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+
+} 
+#ost1,#ost2{
+    margin-bottom: 30px;
+}
+
+#OST #rightcontent1{
+    float: right;
+    position: absolute;
+    right: 14px;
+    top: 1059px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+}
+
+#OST #rightcontent2{
+    float: right;
+    position: absolute;
+    right: 14px;
+    top: 1430px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 20px;
+}
+
+img{
+    /*이미지 불투명도 조절*/
+    opacity: 0.7;
+    filter: alpha(opacity=40);
+}
+
+/*내 정보*/
+footer{
+    font-family: 'Lemonada';
+    font-size: 10px;
+    margin: 0 auto;
+    position: absolute;
+    right: 650px;
+    bottom: 20px;
+    color: black;
+    margin: 0 auto;
+}
+
+footer li{
+    list-style-type: none;
+}
+
+footer a{
+    color: black;
+    padding: 0;
+}
+
+
+
+
+
+
