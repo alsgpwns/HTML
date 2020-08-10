@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    margin: 0 auto;
+    position: relative;
+    width: 600px;
+    height: 680px;
+    font-family: 'Times New Roman', serif;
+}
+
+header{
+    margin: 0 auto;
+    width: 600px;
+    height: 250px;
+    position: relative;
+}
+header ul{
+    list-style-type: none;
+}
+header ul li{
+    float: left;
+}
+
+header ul li a {
+    text-decoration: none;
+    border: 1px solid black;
+}
+
+header ul li:last-child a{
+    border-radius:0 10px 10px 0;
+}
+header ul li:first-child a{
+    border-radius:10px 0 0 10px;
+}
+
+header #topmenu{
+    position: absolute;
+    top: 5px;
+    right: 0;
+}
+
+header #topmenu a{
+    padding: 3px;
+}
+
+header #title{
+    position: absolute;
+    top: 10px;
+    font-family: 'Henny Penny';
+    margin: 30px 0;
+}
+
+header #bottommenu{
+    position: absolute;
+    top: 180px;
+    right: 0;
+}
+
+header #bottommenu a{
+    padding: 10px;
+}
+
+header ul li a:hover{
+    background-color: black;
+    color: white;
+}
+
+
+/* 메인-article*/
+main{
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+
+main #section{
+    width: 430px;
+    position: absolute;
+}
+
+main #section article{
+    border: 1px solid black;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+/* 메인-aside*/
+main #aside{
+    position: absolute;
+    top: 0;
+    right:0;
+}
+
+main #aside .buttons{
+    box-sizing: border-box;
+    height: 40px;
+    width: 160px;
+}
+
+main #aside #HTMLmenu, main #aside #CSSmenu{
+    width: 158px;
+    box-sizing: border-box;
+}
+
+main input{
+    display: none;
+}
+main #aside .buttons label{
+    background-color: pink;   
+    padding: 10px 15px;
+    text-align: center;
+    display: block;
+    float: left;
+    border: 1px solid black;
+    width: 47px;
+}
+
+main #aside ul{
+    list-style-type: none;
+}
+
+main #aside ul li{
+    border: 1px solid black;
+    position: relative;
+
+}
+
+main #aside ul li a{
+    text-decoration: none;
+}
+main #aside ul li #text{
+    white-space: nowrap; 
+    position: absolute;
+    top: 4px;
+    right: 3px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: block;
+    width: 100px;
+}
+
+
+main #aside img{
+    margin: 4px;
+}
+
+#first:checked ~ div:nth-of-type(3){
+    display: none;
+}
+
+#first:checked ~ div:nth-of-type(1) #firstbutton{
+    background-color: rgb(150, 97, 126);
+    color: white;
+}
+
+#second:checked ~ div:nth-of-type(2){
+    display: none;
+}
+
+#second:checked ~ div:nth-of-type(1) #secondbutton{
+    background-color:rgb(150, 97, 126);
+    color: white;
+}
+
+/*footer*/
+footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    border: 1px solid black;
+    width: 600px;
+}
+
+footer p{
+    font-style: italic;
+}
+
+
